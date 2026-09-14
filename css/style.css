@@ -1,0 +1,1164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Quicksand:wght@300..700&display=swap');
+
+/* Esto es un divisor para la sección de Home */
+ 
+body{
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+	color: #000000;
+	margin: 0px;
+}
+ 
+header{
+	background-color: #FFFFFF;
+	padding: 15px 40px 0px 40px;
+	text-align: center;
+}
+ 
+header img{
+	width: 260px;
+	margin-top: -50px;
+}
+ 
+ 
+header a{
+	color: #000000;
+	text-decoration: none;
+	margin: 0 20px;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1px;
+	display: inline-block;
+	margin-top: 25px;
+}
+ 
+#hero{
+	background-color: #FFFFFF;
+	padding: 0px 40px 80px 40px;
+}
+ 
+#hero h1{
+	font-size: 32px;
+	font-weight: 600;
+	color: #A47CC6;
+	text-align: center;
+	line-height: 1.8;
+	margin-top: 60px;
+	margin-bottom: 35px;
+}
+ 
+#hero .col-md-5{
+	text-align: center;
+}
+ 
+.btn-hero{
+	background-color: #FEB9CC;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 18px 45px;
+	border-radius: 30px;
+	box-shadow: 4px 4px 0 0 #B6EEA7;
+}
+ 
+#hero img{
+	width: 100%;
+	max-width: 750px;
+	margin-top: -200px;
+	margin-bottom: -150px;
+}
+ 
+#frase-magia{
+	background-color: #FEB9CC;
+	padding: 30px 0;
+	text-align: center;
+}
+ 
+#frase-magia p{
+	font-style: italic;
+	font-family: 'Fraunces', serif;
+	font-size: 20px;
+	margin: 0;
+}
+ 
+#categorias{
+	background-color: #FFF699;
+	padding: 60px 0;
+	text-align: center;
+}
+ 
+#categorias .col-md-2 img{
+	width: 100%;
+	max-width: 260px;
+}
+ 
+#categorias p{
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+ 
+.enlace-categoria{
+	color: inherit;
+	text-decoration: none;
+}
+ 
+#cita{
+	background-color: #D5BCFE;
+	padding: 0px 0;
+}
+ 
+#cita p{
+	font-family: 'Fraunces', serif;
+	font-style: italic;
+	font-size: 26px;
+	font-weight: 400;
+	color: #49763D;
+	text-align: center;
+	line-height: 1.6;
+	margin-top: 120px;
+}
+ 
+#cita .autor-cita{
+	color: #000000;
+	margin-top: 15px;
+}
+ 
+.ramo-cita{
+	width: 100%;
+	max-width: 430px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: -230px;
+}
+ 
+#cita .col-md-8{
+	text-align: center;
+}
+ 
+#cita .col-md-8 img{
+	width: 100%;
+	max-width: 1300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -60px;
+	margin-bottom: -80px;
+}
+ 
+#cita .col-md-4{
+	text-align: center;
+}
+ 
+#cita img{
+	width: 100%;
+	max-width: 1300px;
+}
+ 
+#franja-verde{
+	background-color: #B6EEA7;
+	padding: 45px 0;
+	margin-top: -40px;
+}
+ 
+#mundos{
+	background-color: #B7E6F2;
+	padding: 40px 0;
+}
+ 
+#mundos h2{
+	font-family: 'Fraunces', serif;
+	font-style: italic;
+	color: #8A6FC0;
+	font-size: 60px;
+	text-align: center;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+ 
+#mundos p{
+	color: #184B07;
+	font-size: 20px;
+	text-align: justify;
+	line-height: 1.9;
+	margin-bottom: 30px;
+}
+ 
+#mundos img{
+	width: 100%;
+	max-width: 720px;
+}
+ 
+#mundos .col-md-7{
+	text-align: right;
+}
+ 
+.btn-discover{
+	background-color: #B6EEA7;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 17px;
+	letter-spacing: 1px;
+	padding: 12px 45px;
+	border-radius: 30px;
+	display: inline-block;
+	box-shadow: 5px 5px 0 0 #D5BCFE;
+	margin-top: 40px;
+}
+ 
+#about-us{
+	background-color:#FFFFFF;
+	padding: 40px 0;
+}
+ 
+#about-us h2{
+	font-size: 55px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+ 
+#about-us img{
+	width: 100%;
+	max-width: 720px;
+}
+ 
+#about-us h2 .logo-about{
+	width: 110px;
+	max-width: 110px;
+	margin-left: 20px;
+	vertical-align: middle;
+}
+ 
+#about-us p{
+	font-size: 18px;
+	text-align: justify;
+	line-height: 1.9;
+	margin-bottom: 25px;
+}
+ 
+#equipo{
+	background-color: #FEB9CC;
+	padding: 20px 0;
+}
+ 
+#equipo img{
+	width: 100%;
+	max-width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -79px;
+	margin-bottom: -78px;
+}
+ 
+#equipo .col-md-10{
+	text-align: center;
+}
+ 
+#equipo .col-md-2{
+	text-align: right;
+}
+ 
+.btn-team{
+	background-color: #FFF699;
+	color: #000000;
+	text-transform: none;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 10px 25px;
+	border-radius: 30px;
+	display: inline-block;
+	margin-top: -15px;
+	box-shadow: 3px 3px 0 0 #B6EEA7;
+}
+ 
+#destacadas{
+	background-color:#B6EEA7;
+	padding: 40px 0;
+	text-align: center;
+}
+ 
+#destacadas img{
+	width: 100%;
+	max-width: 420px;
+	margin-bottom: 20px;
+}
+ 
+.btn-destacada{
+	background-color: #FFF699;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 12px 40px;
+	border-radius: 30px;
+	display: inline-block;
+	box-shadow: 4px 4px 0 0 #D5BCFE;
+}
+ 
+/* Esto es un divisor para la sección de Category */
+ 
+html{
+	scroll-behavior: smooth;
+}
+ 
+#recipe-page{
+	background-color: #F7F7F7;
+	padding: 40px 0;
+}
+ 
+#recipe-page .titulo-libro{
+	font-family: 'Fraunces', serif;
+	font-style: italic;
+	font-size: 46px;
+	font-weight: 400;
+	color: #000000;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+ 
+#recipe-page p{
+	font-weight: 600;
+	color: #A47CC6;
+	font-size: 19px;
+	line-height: 1.7;
+	text-align: justify;
+	max-width: 520px;
+}
+ 
+.icono-flecha{
+	font-size: 24px;
+	color: #000000;
+	margin-top: 20px;
+	display: inline-block;
+}
+ 
+.panel{
+	padding: 30px 40px;
+	min-height: 100%;
+}
+ 
+.panel .titulo-panel{
+	font-family: 'Fraunces', serif;
+	font-style: italic;
+	font-size: 26px;
+	font-weight: 400;
+	display: block;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 8px;
+	margin-bottom: 25px;
+}
+ 
+.panel-categorias{
+	background-color: #B6EEA7;
+}
+ 
+.panel-categorias ul,
+.panel-capitulos ul{
+	list-style: disc;
+	padding-left: 25px;
+	margin: 0 0 20px 0;
+}
+ 
+.panel-categorias li,
+.panel-capitulos li{
+	margin-bottom: 6px;
+}
+ 
+.panel-categorias a,
+.panel-capitulos a{
+	color: #000000;
+	text-decoration: underline;
+	font-size: 16px;
+}
+ 
+.panel-destacada{
+	background-color: #B7E6F2;
+}
+ 
+.img-destacada{
+	max-width: 320px;
+	margin-bottom: 20px;
+}
+ 
+.caption-destacada{
+	background-color: #FFF699;
+	color: #000000;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 14px 30px;
+	border-radius: 30px;
+	display: inline-block;
+}
+ 
+.panel-capitulos{
+	background-color: #FFF699;
+}
+ 
+.panel-capitulos h4{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 12px;
+	margin-top: 25px;
+}
+ 
+.panel-capitulos h4:first-of-type{
+	margin-top: 0;
+}
+ 
+#book-quote{
+	background-color: #FEB9CC;
+	padding: 30px 0;
+	text-align: center;
+}
+ 
+#book-quote p{
+	font-style: italic;
+	font-family: 'Fraunces', serif;
+	font-size: 20px;
+	margin: 0;
+}
+ 
+ 
+ 
+/* Esto es un divisor para la sección de About Page */
+ 
+#team-intro{
+	background-color: #F7F7F7;
+	padding: 30px 0;
+}
+ 
+#team-intro .row{
+	align-items: center;
+}
+ 
+#team-intro img{
+	width: 100%;
+	max-width: 480px;
+}
+ 
+#team-intro h2{
+	display: block;
+	font-size: 44px;
+	font-weight: 400;
+	color: #444444;
+	white-space: nowrap;
+	margin-bottom: 25px;
+}
+ 
+#team-intro h2 .logo-about{
+	display: inline-block;
+	width: 75px;
+	max-width: 75px;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+ 
+#team-intro img{
+	width: 100%;
+	max-width: 550px;
+}
+ 
+#team-intro p{
+	font-size: 17px;
+	text-align: justify;
+	line-height: 1.9;
+	margin-bottom: 20px;
+}
+ 
+#team-members{
+	background-color: #FFFFFF;
+	padding: 20px 0 40px 0;
+}
+ 
+.team-pair{
+	margin-bottom: 10px;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-left: 175px;
+	padding-right: 15px;
+	background-image:  url( "../img/flower-category.png.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 500px;
+}
+ 
+#team-members .row{
+	margin-bottom: 10px;
+}
+ 
+#team-members img{
+	width: 100%;
+	max-width: 210px;
+}
+ 
+#team-members h3{
+	font-size: 30px;
+	font-weight: 400;
+	color: #555555;
+	margin-bottom: 0px;
+}
+ 
+.puesto-equipo{
+	font-family: 'Fraunces', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 18px;
+	border-bottom: 1px solid #888888;
+	padding-bottom: 6px;
+	display: block;
+	max-width: 780px;
+	margin-top: 0px;
+	margin-bottom: 12px !important;
+	color: #2E5C1F;
+}
+ 
+#team-members .row p:not(.puesto-equipo){
+	font-size: 15px;
+	text-align: justify;
+	line-height: 1.6;
+	color: #A47CC6;
+	max-width: 480px;
+}
+ 
+.footer-verde{
+	background-color: #B6EEA7;
+}
+ 
+ 
+ 
+/* Esto es un divisor para la sección de Breakfast Page */
+ 
+ 
+header.header-verde{
+	background-color: #C5F0B4;
+	border-bottom: 2px solid #000000;
+	padding: 10px 40px;
+}
+ 
+header.header-verde img{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 230px;
+}
+ 
+header.header-verde a{
+	margin-top: 0;
+}
+ 
+header.header-verde .navbar-brand{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+ 
+header.header-verde .nav-link{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+ 
+#breakfast-hero{
+	background-color: #C5F0B4;
+	padding: 40px 0 50px 0;
+}
+ 
+.flor-decorativa{
+	width: 100%;
+	max-width: 85px;
+	margin: 0 1px;
+}
+ 
+.titulo-breakfast{
+	font-family: 'Fraunces', serif;
+	font-style: italic;
+	font-size: 46px;
+	font-weight: 400;
+	color: #000000;
+	margin: 0;
+}
+ 
+.tarjeta-receta{
+	margin-top: 20px;
+}
+ 
+.tarjeta-receta img{
+	width: 100%;
+	border-radius: 4px;
+}
+ 
+.etiqueta-receta{
+	background-color: #FEB9CC;
+	color: #000000;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 14px 25px;
+	border-radius: 30px;
+	display: inline-block;
+	margin-top: -25px;
+}
+ 
+#separador-amarillo{
+	background-color: #FFF699;
+	padding: 30px 0;
+}
+ 
+#dragon-rider{
+	background-color: #D5BCFE;
+	padding: 80px 0;
+	background-image: url("../img/flower-category.png.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 350px;
+}
+ 
+.marco-circular{
+	background-color: #FFF699;
+	border-radius: 50%;
+	padding: 15px;
+	display: inline-block;
+	max-width: 480px;
+	box-shadow: 6px 6px 0 0 #FEB9CC;
+}
+ 
+.marco-circular img{
+	width: 100%;
+	border-radius: 50%;
+}
+ 
+.titulo-dragon-rider{
+	font-family: 'Fraunces', serif;
+	font-style: italic;
+	font-size: 46px;
+	font-weight: 400;
+	color: #184B07;
+	line-height: 1.3;
+	margin-bottom: 25px;
+}
+ 
+#dragon-rider p{
+	color: #2E5C1F;
+	font-size: 18px;
+	line-height: 1.8;
+	margin-bottom: 30px;
+}
+ 
+.btn-read-more{
+	background-color: #FFF699;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 14px 40px;
+	border-radius: 30px;
+	display: inline-block;
+	box-shadow: 4px 4px 0 0 #B6EEA7;
+}
+ 
+@media (max-width: 767.98px){
+ 
+	#breakfast-hero .col-4{
+		display: none;
+	}
+ 
+	#breakfast-hero .col-4.text-center{
+		display: block;
+		width: 100%;
+	}
+ 
+	.titulo-dragon-rider{
+		margin-top: 30px;
+		text-align: center;
+	}
+ 
+	#dragon-rider .col-md-7{
+		text-align: center;
+	}
+ 
+}
+ 
+ 
+/* Esto es un divisor para la sección de Contact */
+ 
+ 
+header.header-contacto{
+	background-color: #B6EEA7;
+	border-bottom: 2px solid #000000;
+	padding: 10px 40px;
+}
+ 
+header.header-contacto img{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 230px;
+}
+ 
+header.header-contacto a{
+	margin-top: 0;
+}
+ 
+header.header-contacto .navbar-brand{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+ 
+header.header-contacto .nav-link{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+ 
+#contact-hero{
+	background-color: #B6EEA7;
+	padding: 60px 0 20px 0;
+	text-align: center;
+}
+ 
+.titulo-contacto{
+	font-family: "Fraunces", serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 50px;
+	color: #8A6FC0;
+	margin-bottom: 20px;
+}
+ 
+.linea-contacto{
+	width: 760px;
+	border-bottom: 1px solid #000000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+ 
+.texto-contacto{
+	font-family: "Fraunces", serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 20px;
+	color: #5C4B99;
+	line-height: 1.7;
+	max-width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+.flor-contacto{
+	width: 100%;
+	max-width: 260px;
+	margin-top: 20px;
+}
+ 
+#contact-icono{
+	background-color: #B6EEA7;
+	padding: 10px 0 20px 0;
+	text-align: center;
+}
+ 
+.varita-contacto{
+	max-width: 400px;
+}
+ 
+#contact-form{
+	background-color: #b6eea7;
+		padding: 0px 0 80px 0;
+}
+ 
+.titulo-escribenos{
+	font-family: "Fraunces", serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 32px;
+	color: #8a6fc0;
+	margin-bottom: 10px;
+	}
+ 
+.texto-escribenos{
+	font-family: "Fraunces", serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 15px;
+	color: #5c4b99;
+	margin-bottom: 25px;
+}
+ 
+.input-fairy{
+	background-color: #F7F7F7;
+	border: none;
+	border-radius: 10px;
+	color: #000000;
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+	padding: 18px 20px;
+	margin-bottom: 20px;
+}
+ 
+.textarea-fairy{
+	width: 100%;
+}
+ 
+.btn-enviar{
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	color: #000000;
+	font-weight: 400;
+	font-size: 17px;
+	letter-spacing: 1px;
+	padding: 10px 45px;
+	border-radius: 30px;
+	box-shadow: 4px 4px 0 0 #000000;
+	margin-top: 10px;
+}
+ 
+#franja-morada{
+	background-color: #D5BCFE;
+	padding: 45px 0;
+}
+ 
+ 
+ 
+ 
+/* Esto es un divisor para la sección de footer */
+ 
+footer{
+	background-color: #FFFFFF;
+	padding: 35px 0;
+	text-align: center;
+}
+ 
+footer p{
+	font-family: 'Fraunces', serif;
+	font-style: italic;
+	font-size: 24px;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+	
+}
+ 
+footer .logo-footer{
+	width: 100%;
+	max-width: 150px;
+}
+ 
+footer .icono-red{
+	width: 100%;
+	max-width: 42px;
+	margin: 0 8px;
+	margin-top: 30px;
+}
+ 
+.list-inline-item{
+	font-size:20px;
+}
+ 
+ 
+.btn-subscribe{
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	color: #000000;
+	font-weight: 400;
+	font-size: 17px;
+	letter-spacing: 1px;
+	padding: 10px 45px;
+	border-radius: 30px;
+	display: inline-block;
+	box-shadow: 4px 4px 0 0 #000000;
+}
+ 
+ 
+ 
+@media (max-width: 767.98px){
+ 
+	#hero img{
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+ 
+	#equipo img{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+ 
+	.btn-team{
+		margin-top: 15px;
+	}
+ 
+}
+ 
+ 
+/* Esto es un divisor para la sección de Sugar Plum Fairy Cocktail Page */
+ 
+header.header-morado{
+	background-color: #D5BCFE;
+	border-bottom: 2px solid #000000;
+	padding: 10px 40px;
+}
+ 
+header.header-morado img{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 230px;
+}
+ 
+header.header-morado a{
+	margin-top: 0;
+}
+ 
+header.header-morado .navbar-brand{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+ 
+header.header-morado .nav-link{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+ 
+#cocktail-hero{
+	background-color: #D5BCFE;
+	padding: 40px 0 50px 0;
+}
+ 
+#cocktail-hero .flor-decorativa{
+	max-width: 300px;
+}
+.titulo-receta{
+	font-family: 'Fraunces', serif;
+	font-style: italic;
+	font-size: 46px;
+	font-weight: 400;
+	color: #000000;
+	margin-bottom: 10px;
+}
+ 
+.subtitulo-receta{
+	font-family: "Quicksand", sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #5C4B99;
+	border-top: 1px solid #000000;
+	display: inline-block;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+ 
+#cocktail-detalle{
+	background-color: #D5BCFE;
+	padding: 50px 0;
+}
+ 
+.titulo-instrucciones,
+.titulo-ingredientes{
+	font-family: 'Fraunces', serif;
+	font-style: italic;
+	font-size: 30px;
+	font-weight: 400;
+	color: #000000;
+	margin-bottom: 20px;
+}
+ 
+#cocktail-detalle ol,
+#cocktail-detalle ul{
+	font-size: 16px;
+	line-height: 1.7;
+	color: #000000;
+}
+ 
+.img-ingredientes{
+	max-width: 220px;
+	display: block;
+	margin: 20px 0;
+}
+ 
+.flor-detalle{
+	max-width: 90px;
+	float: right;
+	margin-top: -50px;
+}
+ 
+.titulo-ingredientes + .flor-detalle{
+	margin-right: -60px;
+}
+.btn-next-recipe{
+	background-color: #FFF699;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 14px 40px;
+	border-radius: 30px;
+	display: inline-block;
+	box-shadow: 4px 4px 0 0 #B6EEA7;
+}
+ 
+@media (max-width: 767.98px){
+ 
+	#cocktail-hero .col-md-2{
+		display: none;
+	}
+ 
+	.titulo-receta{
+		font-size: 34px;
+	}
+ 
+}
+ 
+ 
+/* Esto es un divisor para la sección de Morning Oatmeal from the Shire Page */
+ 
+header.header-amarillo{
+	background-color: #FFF699;
+	border-bottom: 2px solid #000000;
+	padding: 10px 40px;
+}
+ 
+header.header-amarillo img{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 230px;
+}
+ 
+header.header-amarillo a{
+	margin-top: 0;
+}
+ 
+header.header-amarillo .navbar-brand{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+ 
+header.header-amarillo .nav-link{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+ 
+.search-fairy-form{
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+ 
+.search-fairy-input{
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	border-radius: 30px 0 0 30px;
+	padding: 8px 20px;
+	font-family: "Quicksand", sans-serif;
+	font-size: 14px;
+	width: 220px;
+	outline: none;
+}
+ 
+.search-fairy-btn{
+	background-color: #000000;
+	color: #FFFFFF;
+	border: 2px solid #000000;
+	border-radius: 50%;
+	width: 38px;
+	height: 38px;
+	margin-left: -19px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+}
+ 
+#oatmeal-hero{
+	background-color: #FFF699;
+	padding: 40px 0 50px 0;
+}
+ 
+#oatmeal-hero .flor-decorativa{
+	max-width: 220px;
+	width: 100%;
+	margin: 0;
+}
+ 
+#separador-azul{
+	background-color: #B7E6F2;
+	padding: 12px 0;
+}
+ 
+#oatmeal-detalle{
+	background-color: #FFF699;
+	padding: 50px 0;
+}
+ 
+#oatmeal-detalle ol,
+#oatmeal-detalle ul{
+	font-size: 16px;
+	line-height: 1.7;
+	color: #000000;
+}
+ 
+.flor-esquina{
+	max-width: 90px;
+	display: block;
+	margin-bottom: -20px;
+}
+ 
+.img-bowl{
+	max-width: 320px;
+	display: block;
+	margin: 0 auto 25px auto;
+}
+ 
+.btn-next-recipe-oatmeal{
+	background-color: #FFF699;
+	border: 2px solid #B7E6F2;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 14px 40px;
+	border-radius: 30px;
+	display: inline-block;
+	box-shadow: 4px 4px 0 0 #B7E6F2;
+}
+ 
+@media (max-width: 767.98px){
+ 
+	#oatmeal-hero .col-md-2{
+		display: none;
+	}
+ 
+	.search-fairy-form{
+		margin: 15px 0 0 0;
+	}
+ 
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
